@@ -12,5 +12,5 @@ jobs:
           command: |
             sudo pip install django
             cd django_blog
-            python manage.py test
+            python manage.py test blog.tests news.tests socialmedia.tests videos.tests
 destination: tr1
