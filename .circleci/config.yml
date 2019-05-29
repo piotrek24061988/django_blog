@@ -10,7 +10,7 @@ jobs:
       - run: sudo chown -R circleci:circleci /usr/local/lib/python3.6/site-packages
       - run:
           command: |
-            sudo pip install django
+            pip install django
             pip install coverage==3.6
             cd django_blog
             coverage run --omit=manage.py manage.py test blog.tests news.tests socialmedia.tests videos.tests
