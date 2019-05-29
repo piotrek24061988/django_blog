@@ -13,6 +13,6 @@ jobs:
             sudo pip install django
             pip install coverage==3.6
             cd django_blog
-            coverage run manage.py test blog.tests news.tests socialmedia.tests videos.tests whatever -v 2
+            coverage run manage.py test blog.tests news.tests socialmedia.tests videos.tests]
             coverage report
 destination: tr1
