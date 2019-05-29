@@ -1,5 +1,5 @@
 import unittest
-from . import views
+from .. import views
 
 
 class HomeTestCase(unittest.TestCase):
@@ -7,20 +7,20 @@ class HomeTestCase(unittest.TestCase):
         # Setup.
         request = 'fake request'
         response_status = 200
-        response_content = b'<h1>News Home</h1>'
+        response_content = b'News Home'
         # Run.
         response = views.home(request)
         # Check.
         self.assertEqual(response.status_code, response_status)
-        self.assertEqual(response.content, response_content)
+        self.assertIn(response_content, response.content)
 
     def test_about(self):
         # Setup.
         request = 'fake request'
         response_status = 200
-        response_content = b'<h1>News About</h1>'
+        response_content = b'About Page'
         # Run.
         response = views.about(request)
         # Check.
         self.assertEqual(response.status_code, response_status)
-        self.assertEqual(response.content, response_content)
+        self.assertIn(response_content, response.content)

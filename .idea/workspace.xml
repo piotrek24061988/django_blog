@@ -3,17 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f3ada7c2-8871-4186-a120-113a58f7046a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_blog/blog/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/blog/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_blog/blog/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/blog/tests/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_blog/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_blog/news/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/news/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_blog/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/news/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_blog/django_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/django_blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_blog/news/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/news/tests/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_blog/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/news/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_blog/socialmedia/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/socialmedia/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_blog/socialmedia/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/socialmedia/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_blog/socialmedia/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/socialmedia/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_blog/videos/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/videos/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_blog/videos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/videos/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_blog/videos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/videos/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_blog/socialmedia/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/socialmedia/tests/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_blog/videos/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/videos/tests/tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,30 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django_blog/videos/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django_blog/videos/admin.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django_blog/videos/apps.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django_blog/videos/models.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/django_blog/news/tests.py">
+        <entry file="file://$PROJECT_DIR$/django_blog/news/tests/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="285">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -56,25 +32,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django_blog/socialmedia/views.py">
+        <entry file="file://$PROJECT_DIR$/django_blog/videos/tests/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django_blog/videos/views.py">
+        <entry file="file://$PROJECT_DIR$/django_blog/blog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django_blog/socialmedia/tests/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/django_blog/blog/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.6/unittest/loader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="368" selection-start-line="368" selection-end-line="368" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django_blog/news/templates/about.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django_blog/django_blog/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="44" column="52" lean-forward="true" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -82,32 +103,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django_blog/news/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django_blog/videos/tests.py">
+        <entry file="file://$PROJECT_DIR$/django_blog/news/templates/news_home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django_blog/videos/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state>
+              <caret selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -134,12 +140,9 @@
         <option value="$PROJECT_DIR$/django_blog/django_blog/urls.py" />
         <option value="$PROJECT_DIR$/django_blog/blog/migrations/tests/test.py" />
         <option value="$PROJECT_DIR$/django_blog/blog/test.py" />
-        <option value="$PROJECT_DIR$/django_blog/blog/tests/tests.py" />
         <option value="$PROJECT_DIR$/django_blog/blog/tests/__init__.py" />
-        <option value="$PROJECT_DIR$/django_blog/django_blog/settings.py" />
         <option value="$PROJECT_DIR$/django_blog/blog/tests2.py" />
         <option value="$PROJECT_DIR$/django_blog/blog/tests.py" />
-        <option value="$PROJECT_DIR$/django_blog/blog/views.py" />
         <option value="$PROJECT_DIR$/django_blog/news/urls.py" />
         <option value="$PROJECT_DIR$/django_blog/socialmedia/apps.py" />
         <option value="$PROJECT_DIR$/django_blog/socialmedia/tests.py" />
@@ -148,15 +151,25 @@
         <option value="$PROJECT_DIR$/django_blog/videos/tests.py" />
         <option value="$PROJECT_DIR$/django_blog/videos/urls.py" />
         <option value="$PROJECT_DIR$/django_blog/videos/views.py" />
-        <option value="$PROJECT_DIR$/django_blog/news/views.py" />
+        <option value="$PROJECT_DIR$/django_blog/blog/tests/tests.py" />
+        <option value="$PROJECT_DIR$/django_blog/blog/templates/about.html" />
+        <option value="$PROJECT_DIR$/django_blog/news/templates/home.html" />
+        <option value="$PROJECT_DIR$/django_blog/django_blog/settings.py" />
+        <option value="$PROJECT_DIR$/django_blog/news/templates/about.html" />
         <option value="$PROJECT_DIR$/django_blog/news/tests.py" />
+        <option value="$PROJECT_DIR$/django_blog/news/views.py" />
+        <option value="$PROJECT_DIR$/django_blog/socialmedia/tests/tests.py" />
+        <option value="$PROJECT_DIR$/django_blog/news/tests/tests.py" />
+        <option value="$PROJECT_DIR$/django_blog/videos/tests/tests.py" />
+        <option value="$PROJECT_DIR$/django_blog/blog/views.py" />
+        <option value="$PROJECT_DIR$/django_blog/blog/templates/home.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="63" />
-    <option name="width" value="1400" />
+    <option name="x" value="201" />
+    <option name="y" value="27" />
+    <option name="width" value="1564" />
     <option name="height" value="893" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -183,7 +196,33 @@
               <item name="NewsFinder" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewsFinder" type="462c0819:PsiDirectoryNode" />
               <item name="django_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewsFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="django_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewsFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="django_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="django_blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewsFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="django_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="socialmedia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewsFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="django_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="socialmedia" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,19 +233,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/django_blog/videos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/django_blog/news" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/django_blog/socialmedia/tests" />
+      <recent name="$PROJECT_DIR$/django_blog/videos/tests" />
+      <recent name="$PROJECT_DIR$/django_blog/news/tests" />
+      <recent name="$PROJECT_DIR$/django_blog/blog/templates" />
+      <recent name="$PROJECT_DIR$/django_blog/blog/tests" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/django_blog/news" />
+      <recent name="$PROJECT_DIR$/django_blog/blog/templates" />
       <recent name="$PROJECT_DIR$/django_blog/videos" />
       <recent name="$PROJECT_DIR$/django_blog/socialmedia" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/django_blog/blog" />
-      <recent name="$PROJECT_DIR$/django_blog/blog/tests" />
-      <recent name="$PROJECT_DIR$/django_blog/blog/migrations/tests" />
-      <recent name="$PROJECT_DIR$/django_blog" />
-      <recent name="$PROJECT_DIR$/blog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -235,14 +276,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="63" width="1400" height="893" extended-state="0" />
+    <frame x="201" y="27" width="1564" height="893" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24473493" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2128488" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -297,26 +338,6 @@
     <entry file="file://$PROJECT_DIR$/django_blog/blog/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/django_blog/blog/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django_blog/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django_blog/blog/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django_blog/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -324,23 +345,6 @@
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django_blog/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django_blog/django_blog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -389,16 +393,6 @@
     <entry file="file://$PROJECT_DIR$/django_blog/socialmedia/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/django_blog/socialmedia/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django_blog/socialmedia/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -428,12 +422,34 @@
     <entry file="file://$PROJECT_DIR$/django_blog/videos/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/django_blog/videos/tests.py">
+    <entry file="file://$PROJECT_DIR$/django_blog/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_blog/blog/templates/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/django_blog/blog/templates/about.html" />
+    <entry file="file://$PROJECT_DIR$/django_blog/blog/tests/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="210">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_blog/blog/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_blog/videos/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -445,33 +461,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django_blog/videos/views.py">
+    <entry file="file://$PROJECT_DIR$/django_blog/django_blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="44" column="52" lean-forward="true" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_blog/news/templates/news_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_blog/news/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/django_blog/news/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_blog/news/tests/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django_blog/news/tests.py">
+    <entry file="file://$PROJECT_DIR$/django_blog/videos/tests/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_blog/socialmedia/tests/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="368" selection-start-line="368" selection-end-line="368" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_blog/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_blog/blog/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,5 @@
 import unittest
-from . import views
+from .. import views
 
 
 class HomeTestCase(unittest.TestCase):
@@ -7,7 +7,7 @@ class HomeTestCase(unittest.TestCase):
         # Setup.
         request = 'fake request'
         response_status = 200
-        response_content = b'<h1>Blog Home</h1>'
+        response_content = b'<h1>Videos Home</h1>'
         # Run.
         response = views.home(request)
         # Check.
