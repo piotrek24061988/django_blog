@@ -14,5 +14,5 @@ jobs:
             pip install coverage==3.6
             cd django_blog
             coverage manage.py test blog.tests news.tests socialmedia.tests videos.tests
-	    coverage xml
+            coverage xml
 destination: tr1
