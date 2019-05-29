@@ -12,6 +12,8 @@ jobs:
           command: |
             pip install django
             pip install coverage==3.6
+      - run:
+          comand: |
             cd django_blog
             coverage run --omit=manage.py manage.py test blog.tests news.tests socialmedia.tests videos.tests
             coverage report
