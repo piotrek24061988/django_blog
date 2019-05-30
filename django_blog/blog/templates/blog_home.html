@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Blog Home Episode 3 20:44</title>
-</head>
-<body>
+{% extends "common/base.html" %}
+{% block head %}
+    <title>Blog Title</title>
+{% endblock %}
+{% block body %}
     {% for post in posts %}
     <h1>{{ post.title }}</h1>
     <p>By {{ post.author }} on {{ post.date_posted }}</p>
@@ -14,5 +13,4 @@
         <p>hate</p>
         {% endif %}
     {% endfor %}
-</body>
-</html>
+{% endblock %}
