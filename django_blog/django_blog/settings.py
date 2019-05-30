@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig',
     'news.apps.NewsConfig',
+    'videos.apps.VideosConfig',
+    'socialmedia.apps.SocialmediaConfig',
 ]
 
 MIDDLEWARE = [

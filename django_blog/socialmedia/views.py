@@ -1,6 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse('<h1>SocialMedia Home</h1>')
+    return render(request, 'socialmedia_home.html')

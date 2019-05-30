@@ -7,9 +7,9 @@ class HomeTestCase(unittest.TestCase):
         # Setup.
         request = 'fake request'
         response_status = 200
-        response_content = b'<h1>Videos Home</h1>'
+        response_content = b'Videos Page'
         # Run.
         response = views.home(request)
         # Check.
         self.assertEqual(response.status_code, response_status)
-        self.assertEqual(response.content, response_content)
+        self.assertIn(response_content, response.content)
