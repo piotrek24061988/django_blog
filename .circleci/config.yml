@@ -15,6 +15,8 @@ jobs:
       - run:
           command: |
             cd django_blog
+            python manage.py makemigrations
+            python manage.py migrate
             coverage run --omit=manage.py manage.py test blog.tests news.tests socialmedia.tests videos.tests
             coverage report
 destination: tr1
