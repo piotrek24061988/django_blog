@@ -7,7 +7,7 @@ class HomeTestCase(unittest.TestCase):
         # Setup
         request = 'fake request'
         response_status = 200
-        response_content = b'News Page'
+        response_content = b'News Title'
         # Run
         response = views.home(request)
         # Check
