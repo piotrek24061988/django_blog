@@ -4,23 +4,23 @@ from .. import views
 
 class HomeTestCase(unittest.TestCase):
     def test_home(self):
-        # Setup.
+        # Setup
         request = 'fake request'
         response_status = 200
         response_content = b'News Page'
-        # Run.
+        # Run
         response = views.home(request)
-        # Check.
+        # Check
         self.assertEqual(response.status_code, response_status)
         self.assertIn(response_content, response.content)
 
     def test_about(self):
-        # Setup.
+        # Setup
         request = 'fake request'
         response_status = 200
         response_content = b'About Page'
-        # Run.
+        # Run
         response = views.about(request)
-        # Check.
+        # Check
         self.assertEqual(response.status_code, response_status)
         self.assertIn(response_content, response.content)
