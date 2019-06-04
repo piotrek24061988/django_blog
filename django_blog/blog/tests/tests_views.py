@@ -2,7 +2,7 @@ import unittest
 from .. import views
 
 
-class HomeTestCase(unittest.TestCase):
+class BlogViewsTestCases(unittest.TestCase):
     def test_home(self):
         # Setup
         request = 'fake request'

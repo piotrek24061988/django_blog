@@ -3,7 +3,7 @@ from .. import models
 from django.contrib.auth.models import User
 
 
-class PostTestCase(unittest.TestCase):
+class BlogModelsTestCases(unittest.TestCase):
     def test_user_empty(self):
         # Setup
         user = None

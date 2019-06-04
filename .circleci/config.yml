@@ -12,6 +12,7 @@ jobs:
           command: |
             pip install django
             pip install coverage==3.6
+            pip install django-crispy-forms
       - run:
           command: |
             cd django_blog

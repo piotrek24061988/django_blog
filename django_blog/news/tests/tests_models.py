@@ -2,7 +2,7 @@ import unittest
 from .. import models
 
 
-class PostTestCase(unittest.TestCase):
+class NewsModelTestCases(unittest.TestCase):
     def test_first_source(self):
         # Setup
         source = 'wpolityce'
@@ -34,9 +34,9 @@ class PostTestCase(unittest.TestCase):
         source = 'magnapolonia'
         website = 'https://www.magnapolonia.org'
         land = 'Poland'
-        message_title = 'w-niemczech-ukarano-ksiedza-za-brak-akceptacji-homoseksualizmu'
+        message_title = 'W Niemczech ukarano ksiedza za brak akceptacji homoseksualizmu'
         message_link = 'https://www.magnapolonia.org/w-niemczech-ukarano-ksiedza-za-brak-akceptacji-homoseksualizmu/'
-        message_title2 = 'wegierski-rzad-ma-zamiar-wspierac-ekspansje-wegierskiej-kultury-na-zakarpaciu'
+        message_title2 = 'Wegierski rzad ma zamiar wspierac ekspansje wegierskiej kultury na zakarpaciu'
         message_link2 = 'https://www.magnapolonia.org/wegierski-rzad-ma-zamiar-wspierac-ekspansje-wegierskiej-kultury-na-zakarpaciu/'
         # Run
         test_source = models.Source(title=source, link=website, country=land)
