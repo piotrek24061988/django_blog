@@ -14,7 +14,7 @@ class BlogModelsTestCases(unittest.TestCase):
 
     def test_first_user(self):
         # Setup
-        name = 'TestUSer'
+        name = 'TestUser'
         mail = name + '@mail.com'
         password = '1234'
         # Run
