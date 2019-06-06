@@ -34,3 +34,15 @@ class BlogModelsTestCases(unittest.TestCase):
         # Check
         self.assertEqual(topic, models.Post.objects.last().title)
         self.assertEqual(message, models.Post.objects.last().content)
+
+    def test_second_post(self):
+        # Setup
+        user = User.objects.create_user('PostUser2', 'PostUser2@gmail.com', '1234')
+        topic = 'testTitle2'
+        message = 'testContent2'
+        # Run
+        post = models.Post(title=topic, content=message, author_id=user.id)
+        post.save()
+        # Check
+        self.assertEqual(topic, models.Post.objects.last().title)
+        self.assertEqual(message, models.Post.objects.last().content)

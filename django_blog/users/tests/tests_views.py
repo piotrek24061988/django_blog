@@ -7,10 +7,21 @@ class RequestStub:
         def is_authenticated(self):
             return True
 
+        class _meta:
+            concrete_fields = ''
+            private_fields = ''
+            many_to_many = ''
+
+        class profile:
+            class _meta:
+                concrete_fields = ''
+                private_fields = ''
+                many_to_many = ''
+
     META = {'CSRF_COOKIE': []}
     user = USER
     method = 'POST'
-    POST = {'POST': {}}
+    POST = {'POST': []}
 
 
 class UsersViewsTestCases(unittest.TestCase):
