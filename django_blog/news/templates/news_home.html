@@ -9,7 +9,7 @@
             <div class="article-metadata">
                 <a class="mr-2" href="#">{{ news.source.title }}</a>
             </div>
-            <h2><a class="article-title">{{ news.title }}</a></h2>
+            <h2><a class="article-title" href="{% url 'news-detail' news.id %}">{{ news.title }}</a></h2>
             <h2><a class="article-content" href="{{ news.link }}">{{ news.link }}</a></h2>
         </div>
     </article>

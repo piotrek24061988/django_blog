@@ -1,0 +1,15 @@
+{% extends "common/base.html" %}
+{% block head %}
+    <title>News Post Title</title>
+{% endblock %}
+{% block body %}
+    <article class="media content-section">
+        <div class="media-body">
+            <div class="article-metadata">
+                <a class="mr-2" href="#">{{ object.source.title }}</a>
+            </div>
+            <h2><a class="article-title">{{ object.title }}</a></h2>
+            <h2><a class="article-content" href="{{ object.link }}">{{ object.link }}</a></h2>
+        </div>
+    </article>
+{% endblock %}
