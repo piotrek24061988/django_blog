@@ -3,6 +3,7 @@
     <title>News Title</title>
 {% endblock %}
 {% block body %}
+    <h1 class="mb-3">News from {{ view.kwargs.title }} ({{ page_obj.paginator.count }})</h1>
     {% for news in newses %}
     <article class="media content-section">
         <div class="media-body">

@@ -15,6 +15,7 @@ class NewsModelTestCases(unittest.TestCase):
             self.assertEqual(source_json['source'], models.Source.objects.last().title)
             self.assertEqual(source_json['website'], models.Source.objects.last().link)
             self.assertEqual(source_json['land'], models.Source.objects.last().country)
+        # ---------------------------------------------------------------------------
         # Setup
         with open('news/tests/news.json') as f:
             newses_json = json.load(f)

@@ -6,4 +6,5 @@ urlpatterns = [
     path('post/<int:pk>/', views.NewsDetailView.as_view(), name='news-detail'),
     path('', views.NewsListView.as_view(), name='news-home'),
     path('about/', views.about, name='news-about'),
+    path('source/<str:title>', views.SourceNewsListView.as_view(), name='news-source'),
 ]
