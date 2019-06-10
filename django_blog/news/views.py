@@ -20,6 +20,7 @@ class NewsListView(ListView):
     template_name = 'news_home.html'
     context_object_name = 'newses'
     ordering = ['date_posted']
+    paginate_by = 5 # 5 post per page
 
 
 class NewsDetailView(DetailView):

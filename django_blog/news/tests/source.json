@@ -1,0 +1,47 @@
+[
+  {
+    "source": "magnapolonia",
+    "website": "https://www.magnapolonia.org",
+    "land": "Poland"
+  },
+  {
+    "source": "wpolityce",
+    "website": "https://wpolityce.pl",
+    "land": "Poland"
+  },
+  {
+    "source": "tvn",
+    "website": "https://www.tvn24.pl",
+    "land": "Poland"
+  },
+  {
+    "source": "polsat",
+    "website": "https://www.polsatnews.pl",
+    "land": "Poland"
+  },
+  {
+    "source": "russia today",
+    "website": "https://www.rt.com/",
+    "land": "Russia"
+  },
+  {
+    "source": "jerusalem post",
+    "website": "https://www.jpost.com/",
+    "land": "Israel"
+  },
+  {
+    "source": "washington post",
+    "website": "https://www.washingtonpost.com/",
+    "land": "USA"
+  },
+  {
+    "source": "aljazeera",
+    "website": "https://www.aljazeera.com/",
+    "land": "IS"
+  },
+  {
+    "source": "der spiegel",
+    "website": "https://www.spiegel.de/",
+    "land": "German"
+  }
+]

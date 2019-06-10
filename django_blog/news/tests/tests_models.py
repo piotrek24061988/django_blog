@@ -1,54 +1,27 @@
-import unittest
+import unittest, json
 from .. import models
 
 
 class NewsModelTestCases(unittest.TestCase):
-    def test_first_source(self):
+    def test_json__source_news(self):
         # Setup
-        source = 'wpolityce'
-        website = 'https://wpolityce.pl/'
-        land = 'Poland'
-        # Run
-        test_source = models.Source(title=source, link=website, country=land)
-        test_source.save()
-        # Check
-        self.assertEqual(source, models.Source.objects.last().title)
-        self.assertEqual(website, models.Source.objects.last().link)
-        self.assertEqual(land, models.Source.objects.last().country)
-
-    def test_second_source(self):
+        with open('news/tests/source.json') as f:
+            sources_json = json.load(f)
+        for source_json in sources_json:
+            # Run
+            test_source = models.Source(title=source_json['source'], link=source_json['website'], country=source_json['land'])
+            test_source.save()
+            # Check
+            self.assertEqual(source_json['source'], models.Source.objects.last().title)
+            self.assertEqual(source_json['website'], models.Source.objects.last().link)
+            self.assertEqual(source_json['land'], models.Source.objects.last().country)
         # Setup
-        source = 'tvn'
-        website = 'https://www.tvn24.pl/'
-        land = 'Poland'
-        # Run
-        test_source = models.Source(title=source, link=website, country=land)
-        test_source.save()
-        # Check
-        self.assertEqual(source, models.Source.objects.last().title)
-        self.assertEqual(website, models.Source.objects.last().link)
-        self.assertEqual(land, models.Source.objects.last().country)
-
-    def test_first_news(self):
-        # Setup
-        source = 'magnapolonia'
-        website = 'https://www.magnapolonia.org'
-        land = 'Poland'
-        message_title = 'W Niemczech ukarano ksiedza za brak akceptacji homoseksualizmu'
-        message_link = 'https://www.magnapolonia.org/w-niemczech-ukarano-ksiedza-za-brak-akceptacji-homoseksualizmu/'
-        message_title2 = 'Wegierski rzad ma zamiar wspierac ekspansje wegierskiej kultury na zakarpaciu'
-        message_link2 = 'https://www.magnapolonia.org/wegierski-rzad-ma-zamiar-wspierac-ekspansje-wegierskiej-kultury-na-zakarpaciu/'
-        # Run
-        test_source = models.Source(title=source, link=website, country=land)
-        test_source.save()
-        test_news = models.News(title=message_title, link=message_link, source=test_source)
-        test_news.save()
-        # Check
-        self.assertEqual(message_title, models.News.objects.last().title)
-        self.assertEqual(message_link, models.News.objects.last().link)
-        # Run
-        test_news2 = models.News(title=message_title2, link=message_link2, source=test_source)
-        test_news2.save()
-        # Check
-        self.assertEqual(message_title2, models.News.objects.last().title)
-        self.assertEqual(message_link2, models.News.objects.last().link)
+        with open('news/tests/news.json') as f:
+            newses_json = json.load(f)
+        for news_json in newses_json:
+            # Run
+            test_news = models.News(title=news_json['title'], link=news_json['link'], source_id=news_json['source_id'])
+            test_news.save()
+            # Check
+            self.assertEqual(news_json['title'], models.News.objects.last().title)
+            self.assertEqual(news_json['link'], models.News.objects.last().link)
