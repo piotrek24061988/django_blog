@@ -1,0 +1,2 @@
+export MY_EMAIL_USER="abc"
+export MY_EMAIL_PASSWORD=""

@@ -133,10 +133,10 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_REDIRECT_URL = 'news-home'
 LOGIN_URL = 'login'
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-EMAIL_HOST = ''
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = ''
-EMAIL_HOST_PASSWORD = ''
-DEFAULT_FROM_EMAIL = 'piotrek24061988@gmail.com'
+EMAIL_HOST_USER = os.environ.get('MY_EMAIL_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('MY_EMAIL_PASSWORD')
+DEFAULT_FROM_EMAIL = os.environ.get('MY_EMAIL_USER')
