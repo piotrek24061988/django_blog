@@ -14,6 +14,7 @@ jobs:
             pip install coverage==3.6
             pip install django-crispy-forms
             pip install Pillow
+            pip install whitenoise
       - run:
           command: |
             cd django_blog
