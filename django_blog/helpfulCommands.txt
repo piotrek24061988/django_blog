@@ -2,3 +2,4 @@ export MY_EMAIL_USER="abc"
 export MY_EMAIL_PASSWORD=""
 heroku logs --tail
 heroku local web
+heroku open
