@@ -15,15 +15,22 @@ class BlogModelsTestCases(unittest.TestCase):
         # Setup
         username1 = 'PostUser1'
         username2 = 'PostUser2'
+        user = None
         with open('blog/tests/posts.json') as f:
             posts_json = json.load(f)
         # Run
-        user = User.objects.create_user(username1, username1 + '@gmail.com', '1234')
+        if not User.objects.filter(email=username1 + '@gmail.com').exists():
+            user = User.objects.create_user(username1, username1 + '@gmail.com', '1234')
+        else:
+            user = User.objects.get(username=username1)
         response = User.objects.filter(username=username1).first()
         # Check
         self.assertEqual(response, user)
         # Run
-        user = User.objects.create_user(username2, username2 + '@gmail.com', '1234')
+        if not User.objects.filter(email=username2 + '@gmail.com').exists():
+            user = User.objects.create_user(username2, username2 + '@gmail.com', '1234')
+        else:
+            user = User.objects.get(username=username2)
         response = User.objects.filter(username=username2).first()
         # Check
         self.assertEqual(response, user)

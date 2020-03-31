@@ -12,6 +12,7 @@ class RequestStub:
             private_fields = ''
             many_to_many = ''
 
+
         class profile:
             class _meta:
                 concrete_fields = ''

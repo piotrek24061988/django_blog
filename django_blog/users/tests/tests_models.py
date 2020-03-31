@@ -11,18 +11,24 @@ class UsersModelsTestCases(unittest.TestCase):
         password = '1234'
         image_url = 'profile_pics/default.jpg'
         image_url_prefix = '/media/'
+        testProfile = None
         # Run
-        test_user = User.objects.create_user(name, mail, password)
+        if not User.objects.filter(email=mail).exists():
+            test_user = User.objects.create_user(name, mail, password)
+        else:
+            test_user = User.objects.get(username=name)
         response = User.objects.filter(username=name).first()
+        print(test_user.profile.image.url)
         # Check
         self.assertEqual(response, test_user)
         # Run
-        # Lines below are done automatically by signals.py and this is why
-        # are commented out here.
-        #test_profile = models.Profile(user=test_user, image=image_url)
-        #test_profile.save()
+        if not models.Profile.objects.filter(user=test_user).exists():
+            testProfile = models.Profile(user=test_user, image=image_url)
+            testProfile.save()
+        else:
+            testProfile = models.Profile.objects.get(user=test_user)
         # Check
-        #self.assertEqual(test_profile, test_user.profile)
+        self.assertEqual(testProfile, test_user.profile)
         self.assertEqual(image_url_prefix + image_url, test_user.profile.image.url)
 
     def test_str(self):
@@ -32,12 +38,20 @@ class UsersModelsTestCases(unittest.TestCase):
         password = '1234'
         image_url = 'profile_pics/default.jpg'
         profile_str = 'Profile'
+        testProfile = None
         # Run
-        test_user = User.objects.create_user(name, mail, password)
+        if not User.objects.filter(email=mail).exists():
+            test_user = User.objects.create_user(name, mail, password)
+        else:
+            test_user = User.objects.get(username=name)
         response = User.objects.filter(username=name).first()
         # Check
         self.assertEqual(response, test_user)
         # Run
-        test_profile = models.Profile(user=test_user, image=image_url)
+        if not models.Profile.objects.filter(user=test_user).exists():
+            testProfile = models.Profile(user=test_user, image=image_url)
+            testProfile.save()
+        else:
+            testProfile = models.Profile.objects.get(user=test_user)
         # Check
-        self.assertEqual(test_profile.__str__(), name + profile_str)
+        self.assertEqual(testProfile.__str__(), name + profile_str)
