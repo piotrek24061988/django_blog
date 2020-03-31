@@ -16,6 +16,7 @@ jobs:
             pip install Pillow
             pip install whitenoise
             pip install django-heroku
+            pip install requests-html
       - run:
           command: |
             cd django_blog
