@@ -15,6 +15,7 @@ jobs:
             pip install django-crispy-forms
             pip install Pillow
             pip install whitenoise
+            pip install django-heroku
       - run:
           command: |
             cd django_blog
