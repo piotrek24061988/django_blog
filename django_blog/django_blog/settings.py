@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -141,3 +142,8 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = os.environ.get('MY_EMAIL_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('MY_EMAIL_PASSWORD')
 DEFAULT_FROM_EMAIL = os.environ.get('MY_EMAIL_USER')
+
+
+# Check if running Heroku or other host
+if "#66-Ubuntu SMP Thu Jan 30 13:49:40 UTC 2020" in str(os.uname()):
+    django_heroku.settings(locals())
